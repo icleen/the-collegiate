@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="/styles/styles.css">
-  <title>Contact</title>
+  <link rel="stylesheet" href="/styles/styles2.css">
+  <link rel="stylesheet" href="/styles/pages.css">
+  <title>The Collegiate</title>
 </head>
 <body>
-  <header>
-    <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/pages/about.html">About</a></li>
-      <li><a href="/pages/portfolio.html">Portfolio</a></li>
-      <li><a href="/pages/reviews.html">Reviews</a></li>
-      <li><a class="active" href="/pages/contact.html">Contact</a></li>
-    </ul>
-  </header>
 
-  <div class="page_body">
-    <div class="intro">
-      <h1>Contact:</h1>
+  <div class="container">
+    <div class="header">
+      <ul>
+        <!-- <li><a class="active" href="/index.html">Home</a></li> -->
+        <li><a href="/pages/politics.html">Politics</a></li>
+        <!-- <li><a href="/pages/finance.html">Finance</a></li> -->
+        <!-- <li><a href="/pages/tech.html">Technology</a></li> -->
+        <li><a href="/pages/world.html">World</a></li>
+
+        <!-- <li><a href="/pages/index.html"><img src="/images/news_icon.png" /></a></li> -->
+        <li><a class="title" href="/index.html">The Collegiate</a></li>
+
+        <!-- <li><a href="/pages/sports.html">Sports</a></li>
+        <li><a href="/pages/weather.html">Weather</a></li> -->
+        <!-- <li><a href="/pages/games.html">Games</a></li> -->
+        <li><a href="/pages/about.html">About</a></li>
+        <li><a class="active" href="/pages/contact.html">Contact</a></li>
+      </ul>
+      <!-- <h1>header</h1> -->
     </div>
-
-    <hr>
-
-    <p>
-      If you have any questions or would like be to take a selfie with you,
-      send me an email!
-    </p>
-
-    <form method="POST" action="https://formspree.io/iclee141@byu.edu">
-      <div>
-        <label for="name">Name:</label>
-        <input type="text" name="name" placeholder="Your Name">
-      </div>
-      <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" name="email" placeholder="Your email">
-      </div>
-      <div>
-        <label for="msg">Message:</label>
-        <textarea name="message" placeholder="Your message"></textarea>
-      </div>
-      <div>
-        <button type="submit">Send</button>
+    <div class="leftbar">
+      <!-- <h1>leftbar</h1> -->
+    </div>
+    <div class="main">
+      <div class="page-title">
+        <h1>Send us your articles.  This is a site run by the people for the people!</h1>
       </div>
 
+      <form method="POST" action="https://formspree.io/iclee141@byu.edu">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" placeholder="Your Name">
+        </div>
+        <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" name="email" placeholder="Your email">
+        </div>
+        <div>
+          <label for="msg">Message:</label>
+          <textarea name="message" placeholder="Your message"></textarea>
+        </div>
+        <div class="button">
+          <button type="submit">Send</button>
+        </div>
+      </form>
 
-
-
-    </form>
+    </div>
+    <div class="rightbar">
+      <!-- <h1>rightbar</h1> -->
+    </div>
+    <div class="footer">
+      <ul>
+        <li><a href="https://github.com/BYU-CS260-Winter-2018/lab-1-icleen">github repository</a></li>
+      </ul>
+    </div>
   </div>
-
-  <footer>
-    <ul>
-      <li><a href="https://github.com/BYU-CS260-Winter-2018/lab-1-icleen">github repository</a></li>
-    </ul>
-  </footer>
 
 </body>
 </html>
